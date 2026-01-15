@@ -1,0 +1,9 @@
+/* CSS Box Model Example */
+.box {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 4px solid black;
+  margin: 30px;
+  background-color: lightblue;
+}

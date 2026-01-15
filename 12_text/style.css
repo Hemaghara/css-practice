@@ -1,0 +1,32 @@
+p{
+  border: 2px solid black;
+  padding: 10px;
+  width: 350px;
+  margin: 10px;
+}
+
+/* use to center text inside element */
+.text-align{
+  text-align: center;
+}
+
+/* use to change text color */
+.text-color{
+  color: blue;
+}
+
+/* use to change text case */
+.text-transform{
+  text-transform: uppercase;
+}
+
+/* use to add line under text */
+.text-decoration{
+  text-decoration:underline;
+}
+
+/* use to increase space between text */
+.text-spacing{
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}

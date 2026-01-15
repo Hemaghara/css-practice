@@ -1,0 +1,14 @@
+/* RGB Color: red, green, blue */
+.rgb{
+  color: rgb(255, 0, 0);
+}
+
+/* RGBA Color: red, green, blue, alpha */
+.rgba{
+  color: rgba(0, 0, 255, 0.5);
+}
+
+/* HEX Color: hexadecimal value */
+.hex{
+  color: #00ff00;
+}

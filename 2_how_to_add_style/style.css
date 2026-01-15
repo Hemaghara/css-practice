@@ -1,0 +1,5 @@
+/* External CSS: CSS written in separate file */
+.external{
+  color: purple;
+  font-weight: bold;
+}

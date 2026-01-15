@@ -1,0 +1,50 @@
+/* Common box style */
+.box{
+  height: 150px;
+  margin: 20px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 150px;
+}
+
+/* background-color: set background color */
+.bg-color{
+  background-color: lightseagreen;
+}
+
+/* background-image: set background image */
+.bg-image{
+  background-image: url("https://via.placeholder.com/300");
+}
+
+/* background-repeat: control image repeat */
+.bg-repeat{
+  background-image: url("https://via.placeholder.com/150");
+  background-repeat: no-repeat;
+}
+
+/* background-position: set image position */
+.bg-position{
+  background-image: url("https://via.placeholder.com/150");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* background-size: control image size */
+.bg-size{
+  background-image: url("https://via.placeholder.com/300");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* background-attachment: fixed or scroll */
+.bg-attachment{
+  background-image: url("https://via.placeholder.com/600");
+  background-attachment: fixed;
+}
+
+/* background: shorthand property */
+.bg-shorthand{
+  background: url("https://via.placeholder.com/300") no-repeat center / cover;
+}

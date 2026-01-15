@@ -1,0 +1,35 @@
+/* Common box style */
+.box{
+  width: 200px;
+  background-color: lightcoral;
+  border: 2px solid black;
+  margin: 15px;
+  text-align: center;
+  color: white;
+}
+
+/* height: fixed height */
+.height-px{
+  height: 100px;
+}
+
+/* height in %: relative to parent */
+.height-percent{
+  height: 50%;
+}
+
+/* height in vh: relative to viewport */
+.height-vh{
+  height: 30vh;
+}
+
+/* min-height: minimum height */
+.min-height{
+  min-height: 80px;
+}
+
+/* max-height: maximum height */
+.max-height{
+  max-height: 60px;
+  overflow: auto;
+}

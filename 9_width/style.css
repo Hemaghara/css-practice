@@ -1,0 +1,26 @@
+/* Common box */
+.box{
+  height: 60px;
+  background-color: lightgreen;
+  border: 2px solid black;
+  margin: 15px;
+  text-align: center;
+  line-height: 60px;
+}
+
+/* width in px */
+.w-px{
+  width: 200px;
+}
+
+/* width in %: relative to parent */
+.w-percent{
+  width: 50%;
+}
+
+/* width in vw: relative to viewport */
+.w-vw{
+  width: 30vw;
+}
+
+

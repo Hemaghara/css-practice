@@ -1,0 +1,15 @@
+/* CSS Outline Properties */
+.box {
+  width: 220px;
+  padding: 20px;
+
+  border: 3px solid black;
+
+  outline-width: 4px;     /*outline width*/
+  outline-style: solid;
+  outline-color: red;   /*outline color*/
+
+  outline-offset: 6px;    /*space between border and outline*/
+
+  background-color: lightblue;
+}

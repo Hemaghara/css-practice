@@ -1,0 +1,45 @@
+.box{
+  height: 100px;
+  width: 300px;
+  margin: 15px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* border-style: type of border */
+.border-style{
+  border-style: solid;
+}
+
+/* border-width: thickness of border */
+.border-width{
+  border-style: solid;
+  border-width: 5px;
+}
+
+/* border-color: color of border */
+.border-color{
+  border-style: solid;
+  border-width: 4px;
+  border-color: red;
+}
+
+/* border-side: individual sides */
+.border-side{
+  border-top: 4px solid blue;
+  border-right: 4px solid green;
+  border-bottom: 4px solid red;
+  border-left: 4px solid orange;
+}
+
+/* border-radius: rounded corners */
+.border-radius{
+  border: 3px solid purple;
+  border-radius: 20px;
+}
+
+/* border: shorthand property */
+.border-shorthand{
+  border: 4px dashed black;
+}

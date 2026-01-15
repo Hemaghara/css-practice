@@ -1,0 +1,77 @@
+/* CSS: used to style HTML elements */
+
+/* Element Selector */
+h1{
+  color: blue;
+}
+
+/* ID Selector: use # */
+#heading{
+  color: red;
+}
+
+/* Class Selector: use . */
+.name{
+  color: pink;
+}
+
+/* Universal Selector: selects all elements */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Grouping Selector: apply same style to multiple elements */
+h4, h5{
+  color: gray;
+}
+
+/* Descendant Selector: parent child */
+div p{
+  background-color: yellow;
+}
+
+/* CSS Pseudo-Classes */
+
+/* :hover → mouse over */
+a:hover{
+  color: green;
+}
+
+/* :visited → visited link */
+a:visited{
+  color: purple;
+}
+
+/* :active → on click */
+a:active{
+  color: orange;
+}
+
+/* :focus → input selected */
+input:focus{
+  border: 2px solid blue;
+  outline: none;
+}
+
+/*CSS Pseudo-Elements*/
+
+/* ::before → content before element */
+.para::before{
+  content: "start";
+}
+
+/* ::after → content after element */
+.para::after{
+  content: "end";
+}
+
+/* ::first-letter → first letter */
+.para::first-letter{
+  font-size: 30px;
+}
+
+/* ::first-line → first line */
+.para::first-line{
+  font-weight: bold;
+}

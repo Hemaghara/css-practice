@@ -1,0 +1,32 @@
+
+.box{
+  height: 80px;
+  width: 200px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 80px;
+  border: 2px solid black;
+}
+
+/* margin: space outside element */
+.margin-all{
+  margin: 20px;
+}
+
+/* margin sides: top right bottom left */
+.margin-side{
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+/* margin auto: center element */
+.margin-auto{
+  margin: 20px auto;
+}
+
+/* negative margin: overlap element */
+.margin-negative{
+  margin-top: -20px;
+}
